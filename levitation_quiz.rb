@@ -4,7 +4,9 @@ def levitation_quiz
 	loop
 	gets.chomp user
 	puts "What is the spell that enacts levitation?"
-	break if ""
+	break if "Wingardium Leviosa"
+	
+	puts ""
 	
 end
 
